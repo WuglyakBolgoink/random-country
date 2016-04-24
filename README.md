@@ -39,7 +39,6 @@ randomCountry(true);
 // => 'Venezuela'
 ```
 
-
 ## Related
 
 - [random-lang](https://github.com/mock-end/random-lang) - Return a random language name.
