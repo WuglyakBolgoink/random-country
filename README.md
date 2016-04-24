@@ -49,7 +49,7 @@ randomCountry(true);
 - [random-latitude](https://github.com/mock-end/random-latitude) - Generate a random latitude.
 - [random-longitude](https://github.com/mock-end/random-longitude) - Generate a random longitude.
 - [random-geohash](https://github.com/mock-end/random-geohash) - Generate a random geohash.
-
+- [random-geojson](https://github.com/mock-end/random-geojson) - Generate a random geojson.
 
 ## Contributing
 
