@@ -1,10 +1,10 @@
 {
   "name": "random-country",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Return a random country.",
   "main": "index.js",
   "dependencies": {
-    "pick-item": "^1.0.3"
+    "pick-item": "^1.0.4"
   },
   "scripts": {
     "lint": "jshint index.js",

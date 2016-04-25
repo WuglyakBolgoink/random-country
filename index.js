@@ -798,11 +798,11 @@ var countries = [{
 }];
 
 
-module.exports = function (full) {
+module.exports = function (options) {
 
   var counrty = pickItem(countries);
 
-  return full ? counrty.name : counrty.abbreviation;
+  return options && options.full ? counrty.name : counrty.abbreviation;
 };
 
 module.exports.countries = countries;

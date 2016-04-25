@@ -7,7 +7,7 @@ describe('random-country: ', function () {
   it('common', function () {
 
     expect(randomCountry()).to.be.a('string');
-    expect(randomCountry(true)).to.be.a('string');
+    expect(randomCountry({ full: true })).to.be.a('string');
 
   });
 

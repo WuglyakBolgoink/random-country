@@ -20,8 +20,10 @@ $ npm install --save random-country
 var randomCountry = require('random-country');
 
 // API
-// - randomCountry();
-// - randomCountry(full);
+// - randomCountry([options]);
+
+// options
+// - full
 ```
 
 By default, returns only the 2 letter ISO 3166-1 code for the country:
@@ -33,9 +35,8 @@ randomCountry();
 
 Optionally specify that it ought to return a full country name:
 
-
 ```js
-randomCountry(true);
+randomCountry({ full: true });
 // => 'Venezuela'
 ```
 
